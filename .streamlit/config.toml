@@ -1,0 +1,9 @@
+#Tema değiştirmek için öncelikle .streamlit adında bir klasör oluşturun.
+#Daha sonra için config.toml adında bir dosya oluşturun.
+#Alttaki gibi [theme] oluşturarak istediğiniz değerleri girin.
+[theme]
+primaryColor="#FF4B4B"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#31333F"
+font="sans serif"
