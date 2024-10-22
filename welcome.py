@@ -13,13 +13,13 @@ user_input = st.text_area('Lütfen analiz etmek istediğiniz metni buraya girin:
 tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 categories = [
-    "Savaş ve Uluslararası Siyaset",
-    "Spor Haberleri",
-    "Tarih ve Geçmiş Olaylar",
-    "Kariyer ve İş Hayatı",
-    "Spor Haberleri",
-    "Toplum ve Güvenlik",
-    "Birleşik Krallık Politikası"
+    "War and International Politics",
+    "Sport News",
+    "History and Past Events",
+    "Career and Business Life",
+    "Sport News",
+    "Society and Security",
+    "United Kingdom Policy"
 ]
 
 if st.button('Tahmin Et'):
