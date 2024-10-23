@@ -12,13 +12,13 @@ user_input = st.text_area("Please enter the text you want to analyse here:")
 tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 categories = [
-    "War and International Politics",
-    "Sport News",
-    "History and Past Events",
-    "Career and Business Life",
-    "Sport News",
-    "Society and Security",
-    "United Kingdom Policy"
+   'Women’s Sports & World Cup',
+   'UK Politics & Governance',
+   'Premier League & Football Competitions',
+   'News Commentary & Analysis',
+   'Crime & Police Investigations',
+   'Humanitarian Crises & Mass Casualties',
+   'Russia-Ukraine Conflict & Invasion'
 ]
 
 if st.button('Predict'):
