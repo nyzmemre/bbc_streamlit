@@ -4,6 +4,7 @@ import joblib
 # nmf modelini yüklüyorum projeme.
 nmf_model = joblib.load('nmf_model.pkl')
 
+
 st.title('Category Analysis')
 st.write("You can categorise news descriptions by analysing them.")
 # Kullanıcıdan description alacağım.
@@ -12,7 +13,7 @@ user_input = st.text_area("Please enter the text you want to analyse here:")
 tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 categories = [
-   'Women’s Sports & World Cup',
+   'Sports & World Cup',
    'UK Politics & Governance',
    'Premier League & Football Competitions',
    'News Commentary & Analysis',
